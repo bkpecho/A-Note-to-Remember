@@ -175,17 +175,17 @@ ul.notes p {
 }
 
 .add-note-button {
-  font-size: 1.5rem;
-  text-align: center;
-  justify-content: center;
-  display: flex;
-  align-items: center;
+  font-size: 3rem;
 }
 
 .add-note-button > a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
+}
+.add-note-button > a span {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .delete {
@@ -197,7 +197,7 @@ ul.notes p {
   display: block;
 }
 
-.breadcrump-nav {
+.breadcrumb-nav {
   display: flex;
   justify-content: space-between;
   margin-bottom: 1rem;
