@@ -1,0 +1,48 @@
+# Logs
+logs
+*.log
+
+# Node.js / npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# React / Vite
+/dist
+/dist-ssr
+/.cache
+/build
+/out
+/public/build
+
+# Server
+/server/node_modules/
+/server/.env
+
+# MongoDB data directory
+/server/data
+
+# Environment variables
+/server/.env.local
+/server/.env.development.local
+/server/.env.test.local
+/server/.env.production.local
+
+# IDE-specific files (Visual Studio Code, WebStorm, etc.)
+.vscode/
+.idea/
+
+# macOS files
+.DS_Store
+
+# Editor specific files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+*.komodotools
+*.kate-swp
+
+# Windows Thumbs.db files
+Thumbs.db
