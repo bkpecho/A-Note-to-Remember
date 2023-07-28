@@ -5,10 +5,15 @@ const Home = () => {
     <div>
       <h1>Home</h1>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-        quaerat unde eveniet, assumenda numquam explicabo.
+        &ldquo;A Note to Remember&rdquo; is a full-stack MERN (MongoDB, Express,
+        React, Node.js) app that helps you keep track of important notes,
+        reminders, and tasks.
       </p>
-      <p>Lorem ipsum dolor sit amet.</p>
+      <p>
+        With our user-friendly interface and simple design, you can easily
+        create, edit, and delete notes, ensuring you never forget anything
+        important ever again.
+      </p>
 
       <Notes />
     </div>
